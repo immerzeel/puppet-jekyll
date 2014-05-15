@@ -8,4 +8,7 @@ description 'Install and configure Jekyll'
 project_page 'http://github.com/immerzeel/puppet-jekyll'
 
 ## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+dependency 'puppetlabs/apt', '>= 1.4.2'
+dependency 'puppetlabs/stdlib', '>= 3.2.1'
+dependency 'puppetlabs/vcsrepo', '>= 0.2.0'
+
