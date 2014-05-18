@@ -20,6 +20,7 @@
 #
 class jekyll {
     package {['jekyll', 'sass']:
-        ensure => installed
+        ensure   => present,
+        provider => gem
     }
 }
